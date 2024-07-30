@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page-Enlaza</title>
+   
+    <link rel="stylesheet" href="./styleConsultar.css">
+</head>
+    <body>
+        <div class="div1">
+            <figure class="logo">
+                <img src="./logoEnlaza.png" width="150" height="100" >
+            </figure>
+            <p><strong>Consulta el estado de tu póliza</strong></p>     
+        </div>
+        <form>
+            <div class="titulo">
+                <p><strong>Datos</strong></p>
+            </div>
+            <div class="datos">
+                <div>
+                    <div>
+                        <label>Tipo de documento:</label>
+                        <select>
+                            <option>Cédula</option>
+                            <option>Cédula extranjera</option>
+                            <option>Pasaporte</option>  
+                        </select>
+                    </div>
+                    <div>
+                        <label for="">Número de documento:</label>
+                        <input class=" docu"type="text">
+                    </div>
+                    <div class="robot">
+                        <input id="confirmacion" type="checkbox">
+                        <label for="confirmacion">No soy un robot</label>
+                    </div>
+                    <div class="boton">
+                        <button type="submit"><strong>Consultar</strong></button>
+                    </div>
+                </div>
+            </div>
+        </form>   
+   </body>
+</html>
